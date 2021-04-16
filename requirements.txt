@@ -3,3 +3,4 @@ pandas
 streamlit
 matplotlib
 scikit-learn==0.24.1
+lightgbm
