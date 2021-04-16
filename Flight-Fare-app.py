@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import lightgbm as ltb
-import shap
 import datetime
 import numpy as np
 import matplotlib.pyplot as plt
