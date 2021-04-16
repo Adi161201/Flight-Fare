@@ -14,7 +14,7 @@ This app predicts the **Flight Fare**!
 st.write('---')
 
 #Importing dataset
-df =pd.read_csv('C:\\Users\\Aditya\\Desktop\\VS STUDIO\\Flight Fare Prediction Model csv.csv')
+df =pd.read_csv('Flight Fare Prediction Model csv.csv')
 X= df.drop('Price',axis=1)
 Y= df['Price']
 
@@ -239,7 +239,7 @@ st.subheader('User Input parameters')
 st.write(data1)
 
 import pickle
-file=open('C:\\Users\\Aditya\\Desktop\\VS STUDIO\\model.pkl','rb')
+file=open('model.pkl','rb')
 lgbm = pickle.load(file)
 
 prediction = lgbm.predict(data1)
